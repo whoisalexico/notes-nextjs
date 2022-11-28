@@ -1,0 +1,23 @@
+.sidebar{
+    height: 100vh;
+}
+
+.sidebarHeader>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addBtn, .deleteBtn {
+    width: 100px;
+    height: 30px;
+    transition: .7s;
+    font-size: 12px;
+}
+.title{
+    min-height: 110px;
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: space-around;
+}
